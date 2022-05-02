@@ -42,6 +42,7 @@ namespace Rover
             }
         }
 
+        //This method changes the arrow index based on the input arrow.
         private void NextMove(int directionASCII)
         {
             int[] arr = FindIndex(directionASCII);
@@ -74,6 +75,7 @@ namespace Rover
             PrinTMatrix();
         }
 
+        //Creates matrix based on size
         private void CreateMatrix(int size)
         {
             for (int i = 0; i < size; i++)
@@ -85,6 +87,7 @@ namespace Rover
             }
         }
 
+        //Returns the index of the arrow, indecs[0] would be the x axis and indecs[1] would be y
         private int[] FindIndex(int directionASCII)
         {
             int[] indecs = new int[2];
@@ -104,6 +107,7 @@ namespace Rover
             return indecs;
         }
 
+        //Sets the correct direction, just so the arrow wont go out of matrix limits
         private int SetCorrectDirection(int x, int y, int maxIndex, int direction)
         {
             // corners
