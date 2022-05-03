@@ -1,8 +1,9 @@
-﻿using static Rover.Rover;
+﻿using RoverApp;
+
+int size;
 
 Console.SetCursorPosition(0, 0);
 Console.Write("Please enter the number of columns and rows(bigger than 3): ");
-int size;
 while (true)
 {
     size = int.Parse(Console.ReadLine());
@@ -16,7 +17,8 @@ while (true)
         break;
     }
 }
-Rover.Rover rover = new Rover.Rover(size);
+
+Rover rover = new Rover(size);
 
 while (true)
 {

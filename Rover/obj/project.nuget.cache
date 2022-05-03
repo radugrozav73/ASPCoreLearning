@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7YfZ3aM2mdGO39BUHsYaawUpoUCp2w7xCWiYHDqZ/C+mN1K+PjHTcIV790jDGlb9l4JFR9NUSd1Sy0PFk94rA==",
+  "dgSpecHash": "mGDNapbLBaGTT9POJEE4WA/fIhFj4Qax1qZswu8JWG1L+E0dlfPvBslqOk+Du3l/DIR5P/V7OkByyO29UIvwRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\Rover.csproj",
+  "projectFilePath": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\RoverApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

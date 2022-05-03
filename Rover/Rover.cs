@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Rover
+﻿namespace RoverApp
 {
     internal class Rover
     {

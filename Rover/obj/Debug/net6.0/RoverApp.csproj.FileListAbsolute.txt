@@ -1,0 +1,15 @@
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\bin\Debug\net6.0\RoverApp.exe
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\bin\Debug\net6.0\RoverApp.deps.json
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\bin\Debug\net6.0\RoverApp.runtimeconfig.json
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\bin\Debug\net6.0\RoverApp.dll
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\bin\Debug\net6.0\RoverApp.pdb
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.csproj.AssemblyReference.cache
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.AssemblyInfoInputs.cache
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.AssemblyInfo.cs
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.dll
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\refint\RoverApp.dll
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.pdb
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\RoverApp.genruntimeconfig.cache
+C:\Users\Radu\Desktop\aspnet\Rover\Rover\obj\Debug\net6.0\ref\RoverApp.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\Rover.csproj",
-      "projectName": "Rover",
-      "projectPath": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\Rover.csproj",
+      "projectUniqueName": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\RoverApp.csproj",
+      "projectName": "RoverApp",
+      "projectPath": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\RoverApp.csproj",
       "packagesPath": "C:\\Users\\Radu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Radu\\Desktop\\aspnet\\Rover\\Rover\\obj\\",
       "projectStyle": "PackageReference",
