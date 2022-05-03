@@ -41,35 +41,35 @@
         }
 
         //This method changes the arrow index based on the input arrow.
-        private void NextMove(int directionASCII)
+        private void NextMove(int direction)
         {
-            int[] arr = FindIndex(directionASCII);
+            int[] arr = FindIndex(direction);
 
-            if (chart[arr[0], arr[1]] != directionASCII)
+            if (chart[arr[0], arr[1]] != direction)
             {
-                chart[arr[0], arr[1]] = SetCorrectDirection(arr[0], arr[1], chart.GetLength(0) - 1, directionASCII);
+                chart[arr[0], arr[1]] = SetCorrectDirection(arr[0], arr[1], chart.GetLength(0) - 1, direction);
                 PrinTMatrix();
                 return;
             }
             chart[arr[0], arr[1]] = 0;
 
-            if (directionASCII == UP)
+            if (direction == UP)
             {
                 if (arr[0] != 0) arr[0] -= 1;
             }
-            if (directionASCII == DOWN)
+            if (direction == DOWN)
             {
                 if (arr[0] != chart.GetLength(0)) arr[0] += 1;
             }
-            if (directionASCII == RIGHT)
+            if (direction == RIGHT)
             {
                 if (arr[1] != chart.GetLength(0)) arr[1] += 1;
             }
-            if (directionASCII == LEFT)
+            if (direction == LEFT)
             {
                 if (arr[1] != 0) arr[1] -= 1;
             }
-            chart[arr[0], arr[1]] = SetCorrectDirection(arr[0], arr[1], chart.GetLength(0) - 1, directionASCII);
+            chart[arr[0], arr[1]] = SetCorrectDirection(arr[0], arr[1], chart.GetLength(0) - 1, direction);
             PrinTMatrix();
         }
 
@@ -86,7 +86,7 @@
         }
 
         //Returns the index of the arrow, indecs[0] would be the x axis and indecs[1] would be y
-        private int[] FindIndex(int directionASCII)
+        private int[] FindIndex(int direction)
         {
             int[] indecs = new int[2];
 
